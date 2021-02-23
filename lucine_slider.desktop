@@ -1,0 +1,9 @@
+#Save this in ~/.local/share/applications
+
+[Desktop Entry]
+Type=Application
+Terminal=false
+Name=Lucine
+Exec=python3 /path/to/lucine.py
+Icon=/path/to/lucine.png
+StartupWMClass=tk
