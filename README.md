@@ -3,7 +3,7 @@ A slider GUI to change brightness of the screen. It is compatible with Dell XPS 
 
 # Requirements
 Install tkinter library
-`sudo apt-get install python-tk`
+`sudo apt-get install python3-tk`
 
 # Usage
 - Put lucine_slider.desktop file in ~/.local/share/applications.
