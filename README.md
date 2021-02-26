@@ -12,4 +12,12 @@ Install tkinter library
   `chmod -x lucine.py` `chmod -x lucine_slider.desktop`
 - Open a terminal in the folder containing lucine.py and run `python3 lucine.py`
 
-Optional: add the icon to Favoites for easy launch!
+# Icon
+Optional: add the icon to Favorites for easy launch!
+
+
+![](lucine_bassa.png)
+
+
+# View
+![](lucine_view.png)

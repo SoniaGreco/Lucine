@@ -6,7 +6,7 @@ class LucineSlider:
 
         self.scale_var = DoubleVar()
         self.scale_var.set(10)
-        self.w = Scale(parent, from_=1, to=10, orient=HORIZONTAL, command=self.setBrightness, width=80, sliderlength=80, variable=self.scale_var, length=800, bd=8, bg="#269")
+        self.w = Scale(parent, from_=1, to=10, orient=HORIZONTAL, command=self.setBrightness, width=80, sliderlength=80, variable=self.scale_var, length=800, bd=8, bg="#F7C600")
         self.w.pack(anchor= CENTER)
 
     def setBrightness(self, num):
@@ -16,7 +16,7 @@ class LucineSlider:
 
 finestrella = Tk()
 finestrella.geometry("800x150")
-finestrella.title("Screen brightness")
+finestrella.title("Lucine")
 
 myFinestrella=LucineSlider(finestrella)
 finestrella.mainloop()
