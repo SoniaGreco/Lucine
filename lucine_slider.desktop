@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Terminal=false
+Name=Lucine
+Exec=python3 /home/username/../Lucine/lucine.py
+Icon=/home/sonia/username/../lucine.png
+StartupWMClass=tk
+
