@@ -11,8 +11,10 @@ class LucineSlider:
 
     def setBrightness(self, num):
         value = self.w.get()/10
-        lucineStr = "xrandr --output eDP-1 --brightness " + str(value)
-        os.system(lucineStr)
+        lucineStr1 = "xrandr --output eDP-1 --brightness " + str(value)
+        lucineStr2 = "xrandr --output eDP-1-1 --brightness " + str(value)
+        os.system(lucineStr1)
+        os.system(lucineStr2)
 
 finestrella = Tk()
 finestrella.geometry("800x150")
